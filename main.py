@@ -1,10 +1,13 @@
 def main():
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    
     total = 0
+    
+    #for loop runs through 5 times
+    for i in range(5):
+        new_num = int(input('Please enter a number: '))
+        total += new_num
+        
+    print(f'Your total is: {total}')
 
     ########################################
     # Do not delete the return statement
